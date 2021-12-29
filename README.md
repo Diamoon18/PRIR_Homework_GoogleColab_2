@@ -1,7 +1,8 @@
 # PRIR_Homework_GoogleColab_2
 ### Numeric integration - the method of rectangles, trapezoids and Simpson
-Function for tests -> y = x*x in [-4;2]
-Result: 24
+Function for tests -> y = x*x in [-4;2]\
+Result: 24\
+I will generate the algorithm 20 times, to find the optimal execution time.
 #### Version cpu 
 // table for n=10, 100, 1000, 10000
 #### Version gpu
