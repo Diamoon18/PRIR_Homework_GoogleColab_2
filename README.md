@@ -5,6 +5,8 @@ Result: 24\
 I will generate the algorithm 20 times, to find the optimal execution time.
 #### Version cpu 
 // table for n=10, 100, 1000, 10000
+![image](https://user-images.githubusercontent.com/72127610/147688264-3281283f-c4a0-4149-a0cb-24408fcff46e.png)
+
 #### Version gpu
 ##### Install CUDA in Google Colab
 ![image](https://user-images.githubusercontent.com/72127610/147588670-f24197d2-ce37-4e42-b793-2247491aefdb.png)
