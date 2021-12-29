@@ -84,5 +84,35 @@ int main()
         cout << "\n"<< endl;
         
     }
+    // Generate time 
+    /*
+    for(int vers = 3; vers < 4; vers++){
+        for(int n = 10; n <= 100000; n*=10){
+            printf("dla -> %d\n", n);
+            for(int i = 1; i <=20; i++){
+                
+                if(vers == 1){
+                    start = clock(); 
+                    int sum = cpu_prostokaty(xp, xk, n);
+                    end = clock();
+                    double cpu_prostok = ((double)(end-start))/CLOCKS_PER_SEC; 
+                    printf("%lf sekund\n", cpu_prostok);
+                } else if(vers == 2){
+                    start = clock(); 
+                    int sum = cpu_trapezy(xp, xk, n);
+                    end = clock();
+                    double cpu_trapezy = ((double)(end-start))/CLOCKS_PER_SEC; 
+                    printf("%lf sekund\n", cpu_trapezy);
+                } else if(vers == 3){
+                    start = clock(); 
+                    int sum = cpu_Simpson(xp, xk, n);
+                    end = clock();
+                    double cpu_simp = ((double)(end-start))/CLOCKS_PER_SEC; 
+                    printf("%lf sekund\n", cpu_simp);
+                }
+            }
+        }    
+    }
+    */
     return 0;
 }
