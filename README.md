@@ -6,7 +6,7 @@ Function for tests -> y = x*x in [-4;2]\
 Result: 24\
 I will generate the algorithm 20 times, to find the optimal execution time.
 #### Version cpu 
-// table for n=10, 100, 1000, 10000
+// table for n=10, 100, 1000, 10000, 100000
 ![image](https://user-images.githubusercontent.com/72127610/147688264-3281283f-c4a0-4149-a0cb-24408fcff46e.png)\
 ```Conclusions```:
 1. For small n, run times quite short, but the accuracy of the calculation is also low for the rectangles method.\
@@ -15,7 +15,7 @@ Also long execution time for large n.
 3. Method Simpsona - the best method for small n.\
 We already have a good answer and for a small amount of time.
 #### Version gpu
-// table for n=10, 100, 1000, 10000
+// table for n=10, 100, 1000, 10000, 100000
 ![image](https://user-images.githubusercontent.com/72127610/147699851-3d585bc9-6ef1-4bb2-8521-bac34b9bca4e.png)\
 ```Conclusions```:
 1. For small n, run time greater than on CPU, and the accuracy of the calculation is low for the rectangles method.\
